@@ -10,7 +10,7 @@ body {
 /* MENU */
 
 .nav-container {
-    background: #E5E5E5;
+    background: white;
     height: 181px;
 }
 
@@ -32,6 +32,7 @@ nav ul {
 
 nav .logo {
     height: auto;
+    margin-top: 35px;
 }
 
 nav .logo #logo{
@@ -40,6 +41,7 @@ nav .logo #logo{
 nav .nav-items{
     position: relative;
     right:0;
+    margin-top: 75px;
 }
 
 .nav-items li {
@@ -53,4 +55,11 @@ nav .nav-items{
 .nav-items li.nav-item-active {
     background: url('../img/strzalka.png') no-repeat right top;
     padding-right: 15px;
+}
+
+.baner {
+
+}
+.container {
+  display: flex; /* or inline-flex */
 }
