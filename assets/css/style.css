@@ -58,8 +58,13 @@ nav .nav-items{
 }
 
 .baner {
+    background: #89adce;
 
 }
-.container {
-  display: flex; /* or inline-flex */
+
+.baner .img-responsive{
+    display: inline-table;
+    opacity: .7;
+    width: 33.05%;
+    vertical-align: middle;
 }
